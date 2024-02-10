@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+
+body {
+    margin: 0;
+    background-color: #FFEFD5;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center; 
+}
+
+section{
+    margin: auto;
+}
+
+img{
+    max-width: 25em;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons{
+    display: flex;
+    margin: auto;
+}
+
+button{
+    border: none;
+    margin: .5em;
+    border-radius: 1em;
+}
+
+.yes{
+    background-color: #90EE90;
+}
+
+.no{
+    background-color: #BA55D3;
+}
+
+.zoomin-btn, .zoomout-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.zoomin-btn:hover, .zoomout-btn:hover {
+    transform: scale(1.1);
+}
+
